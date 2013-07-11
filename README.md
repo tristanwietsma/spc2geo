@@ -6,8 +6,15 @@ Converts state plane coordinates to WGS84 geodetic.
 Requirements
 ------------
 
-* Proj4 4.7.0-2
+* Proj4 4.7.0-2 (dev package)
 * Go 1.1
+
+Install
+-------
+
+First, check the cgo parameters are correctly pointing to the Proj4 header. After that, build it:
+
+    go build spc2geo.go
 
 Usage
 -----
